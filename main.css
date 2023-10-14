@@ -1,0 +1,79 @@
+.response_card {
+    border: 2px solid rgb(117, 121, 126);
+    box-shadow: 0 0 15px rgb(26, 27, 27);
+    border-radius: 10px;
+    font-size: large;
+    margin: 1%;
+    padding: 2%;
+    max-width: 250px;
+    min-width: 90px;
+    min-height: 90px;
+    text-align: justify;
+    text-indent: 20px;
+    background-color: rgb(141, 145, 148);
+}
+
+.photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-size: cover;
+    
+}
+
+.photo1 {
+    background: url("https://medaboutme.ru/upload/resized/640x427/iblock/0b7/zdorovyy_obraz_zhizni_zhenshchiny_osnovnye_pravila.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.photo2 {
+    background: url("https://vdecret.com/wp-content/uploads/3-145.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.photo3 {
+    background: url("http://za-edoy.ru/wordpress/wp-content/uploads/2015/03/aepfel-senken-schlaganfallrisikomh199426199428jpg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+.response_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 24px;
+    background: url("https://xmple.com/wallpaper/gradient-white-grey-linear-1504x2256-c2-ffffff-696969-a-210-f-14.svg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(45, 46, 48);
+
+}
+h1{
+    text-align:center;
+    font-size: 50px;
+}
+@media screen and (max-width: 450px) {
+    .photo1{
+        display: none;
+    }
+    .photo2{
+        display: none;
+    }
+    .photo3{
+        display: none;
+    }
+}
+
+
+
+
+
